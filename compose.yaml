@@ -1,7 +1,9 @@
 name: "UIT-Internet-and-Web-Technology"
 services:
   web:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: wool_web
     ports:
       - "8080:80"
