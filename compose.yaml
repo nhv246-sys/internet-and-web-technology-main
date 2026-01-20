@@ -1,4 +1,4 @@
-version: '3'
+name: "UIT-Internet-and-Web-Technology"
 services:
   web:
     build: .
